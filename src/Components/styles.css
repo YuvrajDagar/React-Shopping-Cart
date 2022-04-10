@@ -1,0 +1,128 @@
+.home {
+  display: flex;
+}
+.productContainer {
+  display: flex;
+  width: 78%;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: space-between;
+}
+.filter {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 25px;
+  background-color: gray;
+  color: white;
+  margin: 10px;
+  border: 20px;
+  border-radius: 5px;
+  height: 650px;
+  position: sticky;
+  top: 10px;
+}
+.filter > span {
+  padding-bottom: 20px;
+}
+.imagesmall {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.itemsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  /* margin-bottom: 20px; */
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0 20px;
+}
+.cartContainer {
+  display: flex;
+  width: 78%;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: space-between;
+}
+.cartItems {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  align-items: center;
+  flex: auto;
+}
+.clearFilter {
+  font-size: 15px;
+}
+.product {
+  width: 27% !important;
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: space-between;
+}
+@media screen and (max-width: 850px) {
+  .filter {
+    display: flex;
+    flex-direction: column;
+    width: 30% !important;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    height: 650px;
+    position: sticky;
+    top: 10px;
+    font-size: 10px !important;
+  }
+  .productContainer {
+    display: flex;
+    width: 58%;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: space-between;
+  }
+  .clearFilter {
+    font-size: 10px;
+    line-height: 1;
+  }
+  .try {
+    margin: 0px !important;
+  }
+  .try2 {
+    font-size: 10px !important;
+  }
+  .searchBar {
+    display: none;
+  }
+  .product {
+    width: 100% !important;
+  }
+  .buttonProduct {
+    margin-top: "5px";
+    height: "30px";
+    font-size: 15;
+    line-height: 1;
+    width: "5rem";
+  }
+
+  .deleteButton {
+    margin: 0 !important;
+  }
+}
